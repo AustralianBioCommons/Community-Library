@@ -5,7 +5,7 @@ type: Collection
 
 Nextflow is a powerful tool for scalable and reproducible bioinformatics workflows, and nf-core provides a rich ecosystem of curated pipelines built on Nextflow’s latest framework. Australian BioCommons and the [National Bioinformatics Training Cooperative](https://www.biocommons.org.au/training-cooperative) have collaboratively developed high-quality Nextflow training resources, supporting life science researchers across Australia to build practical workflow skills. This collection brings these materials together in one place for self-paced learning and for trainers who want to reuse and rerun workshops in their local context.
 
-## Browse the collection
+### Browse the collection
 
 <div class="navigation-tiles row row-cols-1 row-cols-md-2 g-4 my-4">
 	<div class="col">
@@ -28,7 +28,7 @@ Nextflow is a powerful tool for scalable and reproducible bioinformatics workflo
 
 {% assign nextflow_resources = site.data.all_content_list | add_collection | where: "collection", "nextflow_training" %}
 
-### Self-paced learning
+## Self-paced learning
 
 <div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
 	{% for resource in nextflow_resources %}
@@ -54,7 +54,7 @@ Nextflow is a powerful tool for scalable and reproducible bioinformatics workflo
 	{% endfor %}
 </div>
 
-### Resources for trainers
+## Resources for trainers
 
 <div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
 	{% for resource in nextflow_resources %}
