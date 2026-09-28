@@ -7,28 +7,10 @@ Nextflow is a powerful tool for scalable and reproducible bioinformatics workflo
 
 ### Browse the collection
 
-<div class="navigation-tiles row row-cols-1 row-cols-md-2 g-4 my-4">
-	<div class="col">
-		<a class="card h-100 text-decoration-none text-body" href="#self-paced-learning">
-			<div class="card-body">
-				<p class="card-title h2 border-0 pt-0">Self-paced learning</p>
-				<p class="card-text">Build your Nextflow skills through tutorials and practical learning resources.</p>
-			</div>
-		</a>
-	</div>
-	<div class="col">
-		<a class="card h-100 text-decoration-none text-body" href="#training-materials">
-			<div class="card-body">
-				<p class="card-title h2 border-0 pt-0">Training materials</p>
-				<p class="card-text">Find reusable workshop materials and guidance for delivering Nextflow training.</p>
-			</div>
-		</a>
-	</div>
-</div>
-
 {% assign nextflow_resources = site.data.all_content_list | add_collection | where: "collection", "nextflow_training" %}
 
-## Self-paced learning
+#### Self-paced learning
+##### Build your Nextflow skills through tutorials and practical learning resources
 
 <div class="row row-cols-1 row-cols-md-2 g-4 mb-5" id="self-paced-learning">
 	{% for resource in nextflow_resources %}
@@ -54,8 +36,9 @@ Nextflow is a powerful tool for scalable and reproducible bioinformatics workflo
 	{% endfor %}
 </div>
 
-## Training materials
-Find reusable workshop materials and guidance for delivering Nextflow training
+#### Resources for trainers
+##### Find reusable workshop materials and guidance for delivering Nextflow training
+
 <div class="row row-cols-1 row-cols-md-2 g-4 mb-5" id="training-materials">
 	{% for resource in nextflow_resources %}
 		{% if resource.topics == "workshop materials" %}
