@@ -12,7 +12,7 @@ Nextflow is a powerful tool for scalable and reproducible bioinformatics workflo
 #### Self-paced learning
 ##### Build your Nextflow skills through tutorials and practical learning resources
 
-<div class="row row-cols-1 row-cols-md-2 g-4 mb-5" >
+<div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
 	{% for resource in nextflow_resources %}
 		{% if resource.topics == "self-paced learning" %}
 			<div class="col">
@@ -28,7 +28,7 @@ Nextflow is a powerful tool for scalable and reproducible bioinformatics workflo
 						</dl>
 					</div>
 					<div class="card-footer bg-transparent">
-						<a href="{{ resource.url }}">Open resource</a>
+						 <a href="{{ resource.url }}" aria-label="Open {{ resource.name }}">Open resource</a>
 					</div>
 				</div>
 			</div>
@@ -39,7 +39,7 @@ Nextflow is a powerful tool for scalable and reproducible bioinformatics workflo
 #### Resources for trainers
 ##### Find reusable workshop materials and guidance for delivering Nextflow training
 
-<div class="row row-cols-1 row-cols-md-2 g-4 mb-5" >
+<div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
 	{% for resource in nextflow_resources %}
 		{% if resource.topics == "workshop materials" %}
 			<div class="col">
@@ -55,7 +55,7 @@ Nextflow is a powerful tool for scalable and reproducible bioinformatics workflo
 						</dl>
 					</div>
 					<div class="card-footer bg-transparent">
-						<a href="{{ resource.url }}">Open resource</a>
+						 <a href="{{ resource.url }}" aria-label="Open {{ resource.name }}">Open resource</a>
 					</div>
 				</div>
 			</div>
