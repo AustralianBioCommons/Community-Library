@@ -574,13 +574,13 @@
   url: https://carpentries.org/blog/2020/03/tips-for-teaching-online/
 - collection:
   - nextflow_training
-  description: Introduction to Nextflow for life scientists, teaching the fundamentals
-    of building and running reproducible analysis workflows through hands-on exercises.
+  description: 'A hands-on introduction to Nextflow for life scientists, including
+    the fundamentals of building and running reproducible analysis workflows. '
   name: Nextflow for the life sciences
   provider: Sydney Informatics Hub and Australian BioCommons
   topics: self-paced learning
-  type: static website
-  url: https://zenodo.org/records/16791039
+  type: tutorial
+  url: http://sydney-informatics-hub.github.io/hello-nextflow-2025/
 - collection:
   - nextflow_training
   description: Introduction to adapting existing nf-core workflows to suit your research
@@ -589,28 +589,28 @@
   name: 'Unlocking nf-core: Customising workflows for your research'
   provider: Sydney Informatics Hub and Australian BioCommons
   topics: self-paced learning
-  type: static website
-  url: https://zenodo.org/records/20453332
+  type: tutorial
+  url: https://sydney-informatics-hub.github.io/customising-nfcore-workshop-2026/
 - collection:
   - nextflow_training
-  description: Practical examples on how to use existing containers with Nextflow
-    to create portable and reproducible workflows, including how to find suitable
-    container images and integrate them into Nextflow processes.
+  description: Practical examples of using existing containers with Nextflow to create
+    portable and reproducible workflows, including how to find suitable container
+    images and integrate them into Nextflow processes.
   name: Using Containers in Nextflow
   provider: Australian BioCommons
   topics: self-paced learning
   type: YouTube video
-  url: https://zenodo.org/records/20740119
+  url: youtube.com/watch?v=q4Rsq9QxEHk&feature=youtu.be
 - collection:
   - nextflow_training
-  description: Introduction to configure and run Nextflow workflows on High Performance
-    Computing (HPC) systems, including working with schedulers, software environments
-    and Nextflow configuration.
+  description: Introduction to configuring and running Nextflow workflows on High
+    Performance Computing (HPC) systems, including working with schedulers, software
+    environments and Nextflow configuration.
   name: Nextflow on HPC
   provider: Sydney Informatics Hub and Australian BioCommons
   topics: self-paced learning
-  type: static website
-  url: https://zenodo.org/records/17694728
+  type: tutorial
+  url: 'https://sydney-informatics-hub.github.io/nextflow-hpc-workshop/ '
 - collection:
   - nextflow_training
   description: Nextflow for the Life Sciences Trainer package that brings together
@@ -620,5 +620,5 @@
   name: Nextflow for the life sciences workshop materials
   provider: Sydney Informatics Hub
   topics: workshop materials
-  type: static website
+  type: trainer resources
   url: https://sydney-informatics-hub.github.io/nf4ls-materials/
