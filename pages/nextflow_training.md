@@ -17,9 +17,9 @@ Nextflow is a powerful tool for scalable and reproducible bioinformatics workflo
 		</a>
 	</div>
 	<div class="col">
-		<a class="card h-100 text-decoration-none text-body" href="#training-materials">
+		<a class="card h-100 text-decoration-none text-body" href="#resources-for-trainers">
 			<div class="card-body">
-				<p class="card-title h2 border-0 pt-0">Training materials</p>
+				<p class="card-title h2 border-0 pt-0">Resources for Trainers</p>
 				<p class="card-text">Find reusable workshop materials and guidance for delivering Nextflow training.</p>
 			</div>
 		</a>
