@@ -600,7 +600,7 @@
   provider: Australian BioCommons
   topics: self-paced learning
   type: YouTube video
-  url: youtube.com/watch?v=q4Rsq9QxEHk&feature=youtu.be
+  url: 'https://www.youtube.com/watch?v=q4Rsq9QxEHk&feature=youtu.be '
 - collection:
   - nextflow_training
   description: Introduction to configuring and running Nextflow workflows on High
